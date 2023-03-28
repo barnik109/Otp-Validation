@@ -8,13 +8,13 @@ import {getAuth} from "firebase/auth"
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyAUmcXT5TVHG1FFVjAUR0Of1i-OCoFMxNg",
+    apiKey: "",
     authDomain: "phone-auth-54d37.firebaseapp.com",
     projectId: "phone-auth-54d37",
     storageBucket: "phone-auth-54d37.appspot.com",
-    messagingSenderId: "81152055268",
+    messagingSenderId: "",
     appId: "1:81152055268:web:f2980428586e2cd13999f1",
-    measurementId: "G-229RBBBPP7"
+    measurementId: ""
 };
 
 // Initialize Firebase
