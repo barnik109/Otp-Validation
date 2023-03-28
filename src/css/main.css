@@ -1,0 +1,90 @@
+.outer{
+    background-color: rgb(5 150 105);
+    height: 100vh;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+.mainhd{
+text-align: center;
+line-height: 1.5;
+color: rgb(255 255 255);
+font-weight: 500;
+font-size: 1.875rem;
+line-height: 2.25rem;
+margin-bottom: 1.5rem;
+}
+.logo{
+    background-color: white;
+    color: rgb(16 185 129);
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 9999px;
+}
+.phone{
+    font:bold;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: rgb(255 255 255);
+    text-align: center;
+}
+.verfOtp{
+    background-color: rgb(5 150 105);
+    width: 100%;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    color: rgb(255 255 255);
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+.spinner{
+        margin-top: 0.25rem;
+        animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+/* .opt-container input{
+    margin-right: 0px;
+    flex: 1 1 0%;
+    outline: none;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+} */
+.phninp{
+   left: 10px;
+}
+.verfOtp2 {
+    background-color: rgb(5 150 105);
+    width: 340px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    color: rgb(255 255 255);
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
